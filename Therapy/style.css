@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(53,74,111);
+    color: white;
+}
+
+.box h1{
+    font-size: 4rem;
+}
+
+.box2{
+    min-width: 50%;
+    height: 20vh;
+    background-color: aquamarine;
+    font-size: 22px;
+    border: 2px black solid;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.box > h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 15px;
+    text-align: center;
+}
+
+
