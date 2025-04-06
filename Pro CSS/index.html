@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Design Sysyem</title>
+    <style>
+        /* CSS Reset */
+        *, *::before, *::after{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Design System: Custom Properties */
+        :root{
+            /* Typography Scale (Using a modular scale ratio of 1.25) */
+            --font-xs: clamp(0.75rem, 0.7vw + 0.6rem , 0.875rem);
+            --font-sm : clamp(0.875rem, 0.9vw + 0.7rem, 1rem);
+            --font-base: clamp(1rem, 1.1vw + 0.8rem, 1.25rem);
+            --font-md: clamp(1.25rem, 1.4vw + 0.9rem, 1.563rem);
+            --font-lg: clamp(1.563rem, 1.75vw + 1.1rem, 1.953rem);
+            --font-xl: clamp(1.953rem, 2.2vw + 1.3rem, 2.441rem);
+            --font-2xl: clamp(2.441rem, 2.7vw + 1.5rem, 3.052rem);
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
